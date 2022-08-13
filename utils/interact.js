@@ -152,7 +152,7 @@ export const mintNFT = async (mintAmount) => {
       status:
         // "✅ Check your transaction on: https://rinkeby.etherscan.io/tx/" +
         // txHash +
-        "You can View your NFT on: https://testnets.opensea.io/assets/rinkeby/0x2ddBc1CA73bACF2A8f31b90e6a11C5f95885d210/" +
+        "You can View your NFT on: https://testnets.opensea.io/assets/rinkeby/0x3b075D171d7cE615b0EcF0b72fBb0021B7462D91/" +
         value,
     };
   } catch (error) {
