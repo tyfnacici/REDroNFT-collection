@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="flex flex-col space-y-12 justify-center items-center mt-16  text-white ">
-      <a href="#">
+      <a href="https://twitter.com/tyfnacici">
         <div className="rounded-lg opacity-60 hover:opacity-100 bg-gradient-to-br from-red-700 to-primary">
           <p className="px-4 py-2  shadow-2xl">Made by Tayfun Açıcı</p>
         </div>
