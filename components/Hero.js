@@ -63,7 +63,7 @@ const Hero = () => {
       <div className="container max-w-6xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
           <Image
-            src="../public/images/preview.gif"
+            src="/images/preview.gif"
             width="280"
             height="280"
             className="rounded-3xl "

@@ -54,7 +54,7 @@ const Header = () => {
       <header className="sticky  inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-red-900 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30 ">
         <div className="flex flex-wrap pt-2  md:pt-0 justify-center items-center align-middle container mx-auto max-w-7xl md:justify-between h-full">
           <Link href="#">
-            <a className="text-2xl font-bold flex flex-col">
+            <a className="text-2xl font-bold md:flex pt-4 md:pt-0">
               <span className="md:pr-2 text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-red-700">
                 REDro NFT
               </span>
