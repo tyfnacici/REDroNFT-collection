@@ -15,6 +15,7 @@ module.exports = {
         cyan: colors.cyan,
         primary: "#0f1033",
         secondary: "#7d08ff",
+        slate: "#1E293B",
       },
     },
   },

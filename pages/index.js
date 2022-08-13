@@ -1,11 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
-
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Gallery from "../components/Gallery";
 import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +13,7 @@ export default function Home() {
       <About />
       <Gallery />
       <FAQ />
+      <Footer />
     </div>
   );
 }
