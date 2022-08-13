@@ -9,7 +9,7 @@ function Footer() {
         </div>
       </a>
       <p>
-        Contract address (Rinkeby): 0x2ddBc1CA73bACF2A8f31b90e6a11C5f95885d210
+        Contract address (Rinkeby): 0x3b075D171d7cE615b0EcF0b72fBb0021B7462D91
       </p>
     </div>
   );
