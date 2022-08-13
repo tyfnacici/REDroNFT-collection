@@ -44,45 +44,45 @@ const Header = () => {
     <>
       <Head>
         <title>REDro NFT Collection</title>
-        <meta name="description" content="Nft Minting Tutorial" />
+        <meta
+          name="description"
+          content="An Cuberium % RedPunch Studios Collab"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="sticky inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-red-900 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30">
-        <div className="flex items-center container mx-auto max-w-7xl justify-between h-full">
-          {/* Logo */}
+      <header className="sticky  inset-x-0 top-0 z-10 h-20 min-w-full text-white border-b border-red-900 bg-primary backdrop-filter backdrop-blur-lg bg-opacity-30 ">
+        <div className="flex flex-wrap pt-2  md:pt-0 justify-center items-center align-middle container mx-auto max-w-7xl md:justify-between h-full">
           <Link href="#">
-            <a className="text-2xl font-bold">
-              <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-red-700">
+            <a className="text-2xl font-bold flex flex-col">
+              <span className="md:pr-2 text-transparent bg-clip-text bg-gradient-to-br from-red-400 to-red-700">
                 REDro NFT
               </span>
               Collection
             </a>
           </Link>
 
-          {/* Navigation */}
-
-          <nav aria-label="Main Menu" className="">
-            <ul className="flex items-center space-x-8">
-              <li className="text-gray-200 text-semibold">
+          <nav aria-label="Main Menu" className="invisible md:visible">
+            <ul className="flex items-center md:space-x-8 ">
+              <li className=" text-gray-200 text-semibold">
                 <Link href="#about">
                   <a>About</a>
                 </Link>
               </li>
 
-              <li className="text-gray-200 text-semibold">
+              <li className=" text-gray-200 text-semibold ">
                 <Link href="#gallery">
                   <a>The Gallery</a>
                 </Link>
               </li>
 
-              <li className="text-gray-200 text-semibold">
+              <li className=" text-gray-200 text-semibold">
                 <Link href="#faq">
                   <a>FAQ</a>
                 </Link>
               </li>
 
-              <li className="hover:text-red-500 hover:border-red-500 cursor-pointer px-4 py-2 font-extrabold text-red-300 border border-red-300 rounded-md">
+              <li className=" hover:text-red-500 hover:border-red-500 cursor-pointer md:px-4 py-2 font-extrabold text-red-300 border border-red-300 rounded-md">
                 <a
                   className=""
                   id="walletButton"
@@ -101,13 +101,12 @@ const Header = () => {
             </ul>
           </nav>
 
-          {/* Opensea Twitter Discord Links */}
-          <nav aria-label="Contact Menu">
-            <ul className="flex items-center space-x-6">
-              <li>
+          <nav aria-label="Contact Menu" className="invisible md:visible">
+            <ul className="flex items-center md:space-x-6">
+              <li className="">
                 <a href="https://opensea.io" target="_blank" rel="noreferrer">
                   <svg
-                    className="w-7 h-7"
+                    className="w-7 h-7 "
                     viewBox="0 0 90 90"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"

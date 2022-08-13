@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className="text-white flex justify-center items-center align-middle mt-16 h-fit">
-      <div className="max-w-sm bg-white  rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="text-white p-8 md:p-0 flex justify-center items-center align-middle mt-16 h-fit">
+      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img className="rounded-t-lg object-fill" src="/images/10.png" alt="" />
 
         <div className="p-5">

@@ -153,9 +153,13 @@ const Gallery = () => {
       {nftList.map((nft) => {
         return (
           <div className="flex flex-col py-6 px-4" key={nft}>
-            <div className="rounded-lg shadow-lg flex h-80 flex-col  bg-white hover:bg-gray-300 border-2  border-white ">
-              <img className="rounded-t-lg h-48 " src={nft.image} alt="" />
-              <div className="pt-4 px-3 w-48">
+            <div className="rounded-lg shadow-lg flex h-96 md:h-80 flex-col  bg-white hover:bg-gray-300 border-2  border-white ">
+              <img
+                className="rounded-t-lg md:h-48 h-72"
+                src={nft.image}
+                alt=""
+              />
+              <div className="pt-4 px-3 md:w-48 ">
                 <h5 className="text-gray-900 text-xl font-semibold mb-2">
                   {nft.name}
                 </h5>

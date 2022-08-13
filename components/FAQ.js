@@ -19,7 +19,7 @@ export default function MyApp() {
   return (
     <div
       id="faq"
-      className="flex flex-wrap space-x-5 justify-center items-center align-middle mt-16 h-fit"
+      className="flex flex-wrap space-y-7 md:space-y-0 md:space-x-5 justify-center items-center align-middle mt-16 h-fit"
     >
       {faqList.map((yazi) => {
         return (

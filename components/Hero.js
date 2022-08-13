@@ -58,7 +58,7 @@ const Hero = () => {
   return (
     <main
       id="main"
-      className="h-screen  py-16 bg-gradient-to-br from-primary to-red-700"
+      className="h-screen flex justify-center items-center align-middle py-16 bg-gradient-to-br from-primary to-red-700"
     >
       <div className="container max-w-6xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
