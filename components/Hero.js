@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { useStatus } from "../context/statusContext";
+import gif from "../public/images/preview.gif";
 
 import {
   getMaxMintAmount,
@@ -62,12 +63,7 @@ const Hero = () => {
     >
       <div className="container max-w-6xl mx-auto flex flex-col items-center pt-4">
         <div className="flex flex-col items-center">
-          <Image
-            src="/images/preview.gif"
-            width="280"
-            height="280"
-            className="rounded-3xl "
-          />
+          <Image src={gif} width="280" height="280" className="rounded-3xl " />
 
           {isSaleActive ? (
             <>
